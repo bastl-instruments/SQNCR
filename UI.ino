@@ -48,7 +48,7 @@ void renderSequencer(){
     if(jump) seq.jumpToStep(jumpStep);
     proceedStep(seq.getCurrentStep()); 
   }
-  sendGBclock();
+//  sendGBclock();
 }
 
 
